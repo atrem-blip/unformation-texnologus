@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 7d4dcdd8f208446d7f1f319c67fe73b88c299d61 student <roumi@hotmail.de> 1789563092 +0300	commit (initial): Add generate_lead GA4 event
+7d4dcdd8f208446d7f1f319c67fe73b88c299d61 f487fa1509e46f8c9854c436d08b14a6d0fbd4b6 student <roumi@hotmail.de> 1789563878 +0300	commit: Add generate_lead GA4 event
+f487fa1509e46f8c9854c436d08b14a6d0fbd4b6 6e1faf5f2f11154c167da7f70244cea82e0e7282 student <roumi@hotmail.de> 1789564243 +0300	commit: Add generate_lead GA4 event
+6e1faf5f2f11154c167da7f70244cea82e0e7282 8d0dce38eb1a8c332eaf0a6380299e63ef2959fd student <roumi@hotmail.de> 1789564530 +0300	commit: Add CTA analytics event
