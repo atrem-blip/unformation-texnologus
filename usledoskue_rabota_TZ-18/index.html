@@ -1,0 +1,72 @@
+<!-- contacts.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Бронирование квеста</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="js/analytics.js"></script>
+    <script src="js/form.js"></script>
+</head>
+<body>
+    <header>
+        <!-- Шапка сайта -->
+    </header>
+    
+    <main>
+        <h1>Форма бронирования</h1>
+        
+        <form id="bookingForm">
+            <div class="form-group">
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="phone">Телефон:</label>
+                <input type="tel" id="phone" name="phone" pattern="^\+7\d{10}$" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            
+            <div class="form-group">
+                <label>Выберите квест:</label>
+                <select id="quest" name="quest_id" required>
+                    <option value="bunker">Бункер 13</option>
+                    <option value="lighthouse">Проклятие маяка</option>
+                    <option value="heist">Ограбление века</option>
+                    <option value="lab_kids">Лаборатория доктора Кроткова</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="slot">Время:</label>
+                <input type="datetime-local" id="slot" name="slot" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="players">Количество игроков:</label>
+                <input type="number" id="players" name="players" min="2" max="6" value="4" required>
+            </div>
+            
+            <div class="form-group">
+                <input type="checkbox" id="consent" name="consent" required>
+                <label for="consent">
+                    Согласен на обработку персональных данных
+                </label>
+            </div>
+            
+            <button type="submit" data-event="cta_click" data-button-name="book_now">
+                Забронировать
+            </button>
+        </form>
+    </main>
+    
+    <footer>
+        <!-- Подвал сайта -->
+    </footer>
+</body>
+</html>
